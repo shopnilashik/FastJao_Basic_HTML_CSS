@@ -271,7 +271,9 @@ section .box .right p {
   position: absolute;
   left: 10px;
   transform: translateY(-50%);
-  opacity: 0.7;
+  margin-top: 200px;
+  margin-left: 30px;
+  opacity: 0.4;
   animation: caranimation 1s infinite alternate;
 }
 @keyframes caranimation {
@@ -286,14 +288,17 @@ section .box .right p {
 
 /* Logestic part Start */
 .logestic-part {
-  background-color: aqua;
   height: 500px;
   width: 100%;
-  margin-top: 350px;
+  margin-top: 500px;
 }
 .l-box {
   display: flex;
   background-color: #04324d;
+}
+
+.img1 {
+  width: 100%;
 }
 .l-left {
   width: 50%;
