@@ -269,7 +269,7 @@ section .box .right p {
 }
 .car {
   position: absolute;
-  left: 10px;
+  left: 8px;
   transform: translateY(-50%);
   margin-top: 200px;
   margin-left: 30px;
@@ -287,27 +287,25 @@ section .box .right p {
 /* Delivery  part end */
 
 /* Logestic part Start */
-.logestic-part {
-  height: 500px;
+#logestic-part {
+  height: 700px;
   width: 100%;
-  margin-top: 500px;
+  margin-top: 400px;
+  background-color: blue;
 }
-.l-box {
+#logestic-part .box {
   display: flex;
-  background-color: #04324d;
+  flex-direction: row;
+  margin: 0 auto;
 }
-
-.img1 {
-  width: 100%;
-}
-.l-left {
-  width: 50%;
-  height: 100%;
+#logestic-part .box .left {
   background-color: red;
-}
-.l-right {
-  width: 50%;
   height: 100%;
+  width: 50%;
+}
+#logestic-part .box .right {
   background-color: yellow;
+  height: 100%;
+  width: 50%;
 }
 /* Logestic part end */
